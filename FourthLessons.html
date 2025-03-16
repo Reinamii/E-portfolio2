@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <!-- Sidebar Header -->
+      <header class="sidebar-header">
+        <a href="#" class="header-logo">
+          <img class="pokeball" src="https://i.imgur.com/MKyF2mf.png" alt="pokeball" />
+        </a>    
+      <h1 class="page-title"> Electronic Portfolio </h1>
+      </header>
+      <nav class="sidebar-nav">
+        <!-- Primary Top Nav -->
+        <ul class="nav-list primary-nav">
+          <li class="nav-item">
+            <a href="index2.html" class="nav-link">
+              <img class="dratini" src="https://i.imgur.com/XDm8eG6.png">
+              <span class="nav-label">About Me</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="nav-item"><a class="nav-link dropdown-title">Dashboard</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown-container">
+            <a href="#" class="nav-link dropdown-toggle">
+              <img src="https://i.imgur.com/sXOMppK.png" class="mudkip">
+              <span class="nav-label">Lessons</span>
+              <span class="dropdown-icon material-symbols-rounded">keyboard_arrow_down</span>
+            </a>
+            <!-- Dropdown Menu -->
+            <ul class="dropdown-menu">
+              <li class="nav-item"><a class="nav-link dropdown-title">Lessons</a></li>
+              <li class="nav-item"><a href="FirstLessons.html" class="nav-link dropdown-link">1st Quarter</a></li>
+              <li class="nav-item"><a href="SecondLessons.html" class="nav-link dropdown-link">2nd Quarter</a></li>
+              <li class="nav-item"><a href="FourthLessons.html" class="nav-link dropdown-link">4th Quarter</a></li>
+            </ul>
+         
+          <!-- Dropdown -->
+          <li class="nav-item dropdown-container">
+            <a href="#" class="nav-link dropdown-toggle">
+                <img src="https://i.imgur.com/n2oqJVZ.png" class="treecko">
+                <span class="nav-label">Activities</span>
+              <span class="dropdown-icon material-symbols-rounded">keyboard_arrow_down</span>
+            </a>
+            <!-- Dropdown Menu -->
+            <ul class="dropdown-menu">
+              <li class="nav-item"><a class="nav-link dropdown-title">Bookmarks</a></li>
+              <li class="nav-item"><a href="FirstActivities.html" class="nav-link dropdown-link">1st Quarter</a></li>
+              <li class="nav-item"><a href="SecondActivities.html" class="nav-link dropdown-link">2nd Quarter</a></li>
+              <li class="nav-item"><a href="FourthActivites.html" class="nav-link dropdown-link">4th Quarter</a></li>
+            </ul>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a href="Reflection.html" class="nav-link">
+            <img src="https://i.imgur.com/vVPT256.png" class="wooper">
+            <span class="nav-label">Reflection</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="nav-item"><a class="nav-link dropdown-title">Reflection</a></li>
+          </ul>
+        </li>
+      </nav>
+    </aside>
+    <main>
+        <table class="center">
+            <tr>
+                <th> LESSON 1: EVENTS</th>
+                <th> Lesson 1 is all about events. Events are a function does nothing unless it is called.
+                    They help with the Interactivity of your website, allowing you to do 
+                cool javascript functions. This lesson also tackles popup boxes and its three types; 
+                alert box, user-input prompt box and confirm box. In this example, I'll use an alert box. </th>
+                <th>  &lt;head&gt; &lt;script type=“text/javascript” &gt; <br>
+                    function show_alert() <br>
+                    {alert (“WARNING! WARNING!”);} <br>
+                    &lt;/script&gt; &lt;/head&gt; <br>
+                    &lt;body&gt; <br>
+                    &lt;input type=“button” onclick=“show_alert()” <br>
+                    value=“show alert box” /&gt; <br>
+                    &lt;/body&gt; <br>
+                    &lt;/html&gt; </th> <br>
+
+                <th> placeholder
+                    </th>
+                   
+            </tr>
+            <tr>
+                <td> <strong>LESSON 2: CONDITIONS, CONTROLS, AND LOOPS. </strong> </td>
+                <td> This lesson covers conditional statements, or perform different actions for
+                    different decisions. These examples include the If, If-Else, If-Else-If, and 
+                    Switch statements. In my example, I'll be coding an If-Else statement.
+                </td>
+                <td> 
+                    
+                    &lt;body&gt; <br>
+                    &lt;script language=“javascript”&gt; <br>
+                    var grade=60; <br>
+                    if(grade>=75) <br>
+                    {document.write(“Passed”);} <br>
+                    else <br>
+                    {document.write(“Failed”);} <br>
+                    &lt;/script&gt;> <br>
+                    &lt;/body&gt; <br>
+                     </td> <td>
+                   placeholder
+                 </td>
+            </tr>
+            <tr>
+                <td> <strong>LESSON 3: SWITCH. </strong></td>
+                <td> This lesson introduces us to switch statements, used when a condition may have multiple results
+                    and a different set of operation is done based on each result or
+                    input. It also tackles the return statement, used when you have an item that needs an input,
+                     the return statement will be used to give that output.
+                </td>
+                <td> 
+                    &lt;script type="text/javascript"&gt; <br>
+                    function product(x,y) <br>
+                    { <br>
+                    return x*y; <br>
+                    } <br>
+                    &lt;/script&gt; <br>
+                    &lt;/head&gt; <br>
+                    &lt;body&gt; <br>
+                    &lt;script language="javascript"> <br>
+                    document.write("The product of x and y is"); <br>
+                    document.write(product (5,7)); <br>
+            </td>
+                <td> <p align="center"> <span class="test2"> example of using the SPAN tag. </span></p></td>
+            </tr>
+            
+        </table>
+  
+    
+        </main>
+        <script src="script.js"></script>
+  </body>
+</html>
